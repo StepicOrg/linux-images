@@ -7,7 +7,7 @@ trap '' 2  # mock SIGINT on CTRL+C
 read
 trap 2  # enable SIGINT
 
-cat /.box/.greeting 2> /dev/null
+cat /.box/greeting 2> /dev/null
 while true; do
     su box
 done

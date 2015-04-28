@@ -12,7 +12,7 @@ ADD bashrc /root/.bashrc
 ADD bashrc /home/box/.bashrc
 
 ADD start.sh /.box/start.sh
-ADD greeting /.box/.greeting
+ADD greeting /.box/greeting
 
 RUN sed -i 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config \
  && sed -i 's/#UsePAM no/UsePAM no/g' /etc/ssh/sshd_config \
