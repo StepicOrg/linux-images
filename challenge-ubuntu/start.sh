@@ -6,7 +6,7 @@ service ssh start > /dev/null || exit 1
 # Display the bold prompt
 bold=$(tput bold)
 normal=$(tput sgr0)
-echo -n "${bold}Press ENTER to start hacking...${normal}"
+echo "${bold}Press ENTER to start hacking...${normal}"
 
 # Wait for ENTER
 trap '' 2  # mock SIGINT on CTRL+C
