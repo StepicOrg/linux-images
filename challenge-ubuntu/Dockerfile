@@ -1,9 +1,11 @@
 FROM ubuntu:14.04
 MAINTAINER Pavel Sviderski <ps@stepic.org>
 
-RUN apt-get update && apt-get --no-install-recommends -y install man openssh-server vim wget python-pip \
-    nano screen tmux \
+RUN apt-get update && apt-get --no-install-recommends -y install \
+    man openssh-server wget python-pip \
+    vim nano screen tmux \
     binutils build-essential gdb ltrace strace \
+    sqlite sqlite3 \
  && apt-get clean \
  && useradd -m box
 
