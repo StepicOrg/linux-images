@@ -2,10 +2,11 @@ FROM phusion/baseimage
 MAINTAINER Pavel Sviderski <ps@stepic.org>
 
 RUN apt-get update && apt-get --no-install-recommends -y install \
-    man wget vim nano screen tmux \
+    man wget vim nano screen tmux git rsync \
     python python-pip python-virtualenv python3.4 python3-pip \
     binutils build-essential gdb ltrace strace \
     sqlite sqlite3 \
+    nmap \
  && apt-get clean \
  && useradd -m box
 
