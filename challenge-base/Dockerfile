@@ -11,7 +11,6 @@ RUN apt-get update && apt-get --no-install-recommends -y install \
  && useradd -m box
 
 RUN rm -f /etc/service/sshd/down && /etc/my_init.d/00_regen_ssh_host_keys.sh \
- && rm -rf /etc/service/cron /etc/service/syslog-forwarder /etc/service/syslog-ng \
  && echo "box ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/box \
  && mkdir -p /.box/bashrc.d/root /.box/bashrc.d/box
 
