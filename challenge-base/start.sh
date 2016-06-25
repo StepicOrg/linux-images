@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start the SSH service
-/sbin/my_init --skip-startup-files &> /dev/null &
+/usr/sbin/sshd
 
 # Display the bold prompt
 bold=$(tput bold)
