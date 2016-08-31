@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM phusion/baseimage:0.9.18
 MAINTAINER Pavel Sviderski <ps@stepic.org>
 
 RUN apt-get update && apt-get --no-install-recommends -y install \
