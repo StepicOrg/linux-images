@@ -6,5 +6,5 @@ RUN apt-get update && apt-get --no-install-recommends -y install \
     nginx-extras gunicorn \
     python-django python-mysqldb python3-dev \
  && apt-get clean \
- && pip install django --upgrade
+ && pip install django --upgrade \
  && pip3 install django gunicorn mysqlclient
