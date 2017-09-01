@@ -8,8 +8,7 @@ Welcome to Linux Challenge on
              | |                       __/ |
              |_|                      |___/
 
-This box runs Ubuntu 14.04. You are logged in as user "box".
-To run a command as administrator (user "root"), use "sudo <command>".
+This box runs Ubuntu 16.04. You are logged in as user "box".
  * Documentation: https://help.ubuntu.com/
 
 Web terminal usage

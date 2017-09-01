@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start the SSH service
-/usr/sbin/sshd
+service ssh start > /dev/null
 
 # Display the bold prompt
 bold=$(tput bold)
@@ -14,7 +14,7 @@ read
 trap 2  # enable SIGINT
 
 # Print the greeting
-cat /.box/greeting 2> /dev/null
+cat /.greeting 2> /dev/null
 
 while true; do
     su box
