@@ -1,4 +1,4 @@
-FROM stepic/challenge-base
+FROM stepic/challenge-ubuntu
 MAINTAINER Mark Zaslavskiy <mark.zaslavskiy@gmail.com>
 
 COPY mongodb_key.asc /root/
