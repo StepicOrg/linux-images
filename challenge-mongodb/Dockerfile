@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install -y mongodb-org
 
 RUN mkdir  -p /data/db
 
-RUN echo "timeout --foreground 2 mongod --fork --logpath /var/log/mongodb.log" >> /home/box/.bashrc
+RUN echo "timeout --foreground 2 sudo mongod --fork --logpath /var/log/mongodb.log" >> /home/box/.bashrc
