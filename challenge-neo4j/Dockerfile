@@ -15,7 +15,6 @@ RUN apt-get update \
   oracle-java8-installer \
   cypher-shell \
   neo4j=3.2.3 \
- && pip3 install py2neo \
  && rm -rf /var/lib/apt/lists/*
 
 RUN echo "dbms.security.auth_enabled=false" | tee -a /etc/neo4j/neo4j.conf
