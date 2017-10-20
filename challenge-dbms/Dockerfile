@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends oracle-java8-in
 RUN apt-get update && apt-get install -y --no-install-recommends \
     mongodb-org \
     oracle-java8-installer cypher-shell neo4j=3.2.3 \
- && pip3 install py2neo \
+ && pip3 install pymongo py2neo \
  && rm -rf /var/lib/apt/lists/*
 
 # Create the data directory for MongoDB
