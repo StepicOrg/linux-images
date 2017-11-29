@@ -17,8 +17,9 @@ RUN echo "deb [ arch=amd64 ] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-o
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     mongodb-org \
-    oracle-java8-installer cypher-shell neo4j=3.2.3 python3-dev \
- && pip3 install pymongo py2neo numpy \
+    oracle-java8-installer cypher-shell neo4j=3.2.3 \
+    python3-numpy \
+ && pip3 install pymongo py2neo \
  && rm -rf /var/lib/apt/lists/*
 
 # Create the data directory for MongoDB
