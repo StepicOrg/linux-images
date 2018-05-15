@@ -1,0 +1,11 @@
+doctype html
+html(lang="ru")
+    body
+        form(method="get",action="submitform")
+            input(name="name")
+            input(name="password",type="password")
+            input(type="submit")
+        - if(counter == 1)
+            p Hello
+        - else
+            p Again

@@ -1,0 +1,10 @@
+{
+  "name": "jquery",
+  "version": "0.0.7",
+  "description": "Изучение jQuery",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge"
+}

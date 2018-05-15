@@ -1,0 +1,12 @@
+{
+  "name": "formpug",
+  "version": "0.0.5",
+  "description": "Обучение использованию form и pug",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "devDependencies": {
+    "pug": "^2.0.0-rc.4"
+  }
+}

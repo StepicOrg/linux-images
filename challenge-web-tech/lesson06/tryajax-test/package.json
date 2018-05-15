@@ -1,0 +1,13 @@
+{
+  "name": "tryajax",
+  "version": "0.0.6",
+  "description": "Изучение AJAX и XML",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

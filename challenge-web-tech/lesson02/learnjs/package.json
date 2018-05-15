@@ -1,0 +1,10 @@
+{
+  "name": "learnjs",
+  "version": "0.0.1",
+  "description": "Изучение JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge"
+}

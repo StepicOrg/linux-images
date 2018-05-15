@@ -1,0 +1,14 @@
+{
+  "name": "jqueryui-test",
+  "version": "0.0.8",
+  "description": "Learn for jQuery UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2"
+  }
+}

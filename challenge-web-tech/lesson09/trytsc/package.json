@@ -1,0 +1,11 @@
+{
+  "name": "trytsc-test",
+  "version": "0.0.9",
+  "description": "Learning Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc; mocha"
+  },
+  "author": "bserge"
+}

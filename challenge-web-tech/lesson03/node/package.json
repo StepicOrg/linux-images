@@ -1,0 +1,9 @@
+{
+  "name": "node",
+  "version": "0.0.2",
+  "description": "Изучение node.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge"
+}

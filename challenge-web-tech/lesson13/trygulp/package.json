@@ -1,0 +1,20 @@
+{
+  "name": "trygulp-test",
+  "version": "0.0.13",
+  "description": "Try using gulp",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp4",
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp4": "^4.0.2"
+  }
+}

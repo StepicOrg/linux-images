@@ -1,0 +1,12 @@
+{
+  "name": "html-css-test",
+  "version": "0.0.4",
+  "description": "Тестирование HTML и CSS",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}

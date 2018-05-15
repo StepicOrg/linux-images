@@ -1,0 +1,14 @@
+{
+  "name": "trytdd-test",
+  "version": "0.0.12",
+  "description": "Try unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bserge",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "should": "^13.2.1"
+  }
+}
