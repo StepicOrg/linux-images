@@ -4,7 +4,7 @@ WORKDIR /root/vr_arduino_project
 COPY simulavr_dependency.sh .
 COPY simulavr_install.sh .
 
-RUN chmod 755 ./simulavr_dependency.sh && ./simulavr_dependency.sh
+RUN ./simulavr_dependency.sh
 RUN wget http://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz && tar -xf swig-3.0.12.tar.gz && rm swig-3.0.12.tar.gz
 
 WORKDIR /root/vr_arduino_project/swig-3.0.12
@@ -16,6 +16,5 @@ ENV PATH=$PATH:$SWIG_HOME
 ENV LD_LIBRARY_PATH=/usr/local/lib/
 
 WORKDIR /root/vr_arduino_project
-RUN chmod 755 ./simulavr_install.sh
 RUN git clone git://git.savannah.nongnu.org/simulavr.git
 RUN ./simulavr_install.sh  simulavr
