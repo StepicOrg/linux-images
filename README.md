@@ -1,6 +1,11 @@
 # Linux Challenge Images
 Dockerfiles to build images used in [Linux Challenge](https://stepik.org/lesson/Step-Linux-9180/) on [Stepik.org](https://stepik.org/). 
 
+Base images with pre-installed basic tools and configured so that the check system can connect to it:
+* [`stepic/challenge-base:trusty`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 14.04
+* [`stepic/challenge-base:xenial`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 16.04
+
+Images you can use in [Linux Challenge](https://stepik.org/lesson/Step-Linux-9180/):
 * [`stepic/challenge-base`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 14.04
 * [`stepic/challenge-graphics`](https://hub.docker.com/r/stepic/challenge-graphics/) — Ubuntu 14.04 (imagemagick, ffmpeg)
 * [`stepik/challenge-postgresql`](https://hub.docker.com/r/stepik/challenge-postgresql/) — Ubuntu 14.04 (postgresql)

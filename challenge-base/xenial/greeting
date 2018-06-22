@@ -1,0 +1,20 @@
+Welcome to Linux Challenge on
+      _             _ _
+     | |           (_) |
+  ___| |_ ___ _ __  _| | __  ___  _ __ __ _
+ / __| __/ _ \ '_ \| | |/ / / _ \| '__/ _` |
+ \__ \ ||  __/ |_) | |   < | (_) | | | (_| |
+ |___/\__\___| .__/|_|_|\_(_)___/|_|  \__, |
+             | |                       __/ |
+             |_|                      |___/
+
+This box runs Ubuntu 16.04. You are logged in as user "box".
+To run a command as administrator (user "root"), use "sudo <command>".
+ * Documentation: https://help.ubuntu.com/
+
+Web terminal usage
+==================
+ * Click the titlebar to drag
+ * Double-click the titlebar to maximize
+ * Click and drag the lower-right corner to resize
+
