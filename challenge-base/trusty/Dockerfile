@@ -15,8 +15,8 @@ RUN rm -f /etc/service/sshd/down && /etc/my_init.d/00_regen_ssh_host_keys.sh \
  && mkdir -p /.box/bashrc.d/root /.box/bashrc.d/box
 
 COPY ssh /root/.ssh
-COPY bashrc/root /root/.bashrc
-COPY bashrc/box /home/box/.bashrc
+COPY bashrc /root/.bashrc
+COPY bashrc /home/box/.bashrc
 
 COPY greeting /.box/greeting
 COPY start.sh /.box/start.sh
