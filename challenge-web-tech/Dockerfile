@@ -1,5 +1,5 @@
 # Version 0.0.5
-FROM ubuntu:16.04
+FROM stepik/challenge-base:xenial-20180622
 MAINTAINER Belyaev Sergey <bserge@bk.ru>
 
 RUN apt-get update && apt-get install -y nano curl \
