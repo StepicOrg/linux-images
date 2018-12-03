@@ -15,4 +15,6 @@ apt-get install -y \
 	python-dev \
 	git
 
+pip install enum34
+
 rm -rf /var/lib/apt/lists/*
