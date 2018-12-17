@@ -3,9 +3,12 @@ FROM stepic/challenge-base
 WORKDIR /root/vr_arduino_project
 COPY simulavr_dependency.sh .
 COPY simulavr_install.sh .
+COPY arduino_dependency.sh .
 
 RUN ./simulavr_dependency.sh
 RUN wget http://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz && tar -xf swig-3.0.12.tar.gz && rm swig-3.0.12.tar.gz
+
+RUN ./arduino_dependency.sh
 
 WORKDIR /root/vr_arduino_project/swig-3.0.12
 RUN ./configure && make
