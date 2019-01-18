@@ -2,6 +2,8 @@
 
 ard_ide_v="1.8.8"
 
+# allow read files in /root
+chmod +x /root
 # Base makefile
 git clone https://github.com/sudar/Arduino-Makefile /root/Arduino-Makefile
 chmod -R o+rx /root/Arduino-Makefile
