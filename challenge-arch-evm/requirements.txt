@@ -1,0 +1,2 @@
+pyeda==0.28.0
+npyscreen==4.10.5
