@@ -3,7 +3,8 @@ Dockerfiles to build images used in [Linux Challenge](https://stepik.org/lesson/
 
 Base images with pre-installed basic tools and configured so that the check system can connect to it:
 * [`stepic/challenge-base:trusty`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 14.04
-* [`stepik/challenge-base:xenial`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 16.04
+* [`stepik/challenge-base:xenial`](https://hub.docker.com/r/stepik/challenge-base/) — Ubuntu 16.04
+* [`stepik/challenge-base:bionic`](https://hub.docker.com/r/stepik/challenge-base/) — Ubuntu 18.04
 
 Images you can use in [Linux Challenge](https://stepik.org/lesson/Step-Linux-9180/):
 * [`stepic/challenge-base`](https://hub.docker.com/r/stepic/challenge-base/) — Ubuntu 14.04
