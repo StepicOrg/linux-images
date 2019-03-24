@@ -1,4 +1,4 @@
-FROM stepic/challenge-base
+FROM stepik/challenge-base:bionic
 
 WORKDIR /root/
 COPY requirements.txt .
