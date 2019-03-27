@@ -15,3 +15,4 @@ Images you can use in [Linux Challenge](https://stepik.org/lesson/Step-Linux-918
 * [`stepik/challenge-web-tech`](https://hub.docker.com/r/stepik/challenge-web-tech/) — Ubuntu 16.04 (web technologies) — Node.js, PHP, Python, Nginx
 * [`stepik/challenge-ros`](https://hub.docker.com/r/stepik/challenge-ros/) — Ubuntu 16.04 (ROS) — The Robot Operating System
 * [`stepik/challenge-avr`](https://hub.docker.com/r/stepik/challenge-avr/) — Ubuntu 16.04 (SimulAVR) — A simulator for the Atmel AVR family of microcontrollers
+* [`stepik/challenge-arch-evm`](https://hub.docker.com/r/stepik/challenge-arch-evm/) — Ubuntu 18.04 (Computer architecture) - Python 3.6, PyEDA
