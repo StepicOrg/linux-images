@@ -16,5 +16,6 @@ apt-get install -y \
 	git
 
 pip install enum34
+pip install timeout-decorator
 
 rm -rf /var/lib/apt/lists/*
