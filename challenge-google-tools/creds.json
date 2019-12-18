@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stepicdoctable",
+  "private_key_id": "1172f4dcca14e30cef4673c352af6530e7af2f5b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDY7N8XNhU942zA\n3WuYFue9nDu/4HeDrXeBkm38Dpx+zbNpdlzc+AP1gw7PQy+42YOO5r3p5heqUZtR\nq3AcAg1OMhnScDb0zrswf7hGw7lUYPx5ttSkiNIg2KQF4uUVsLK0ymSsoycMYLAz\nveGAmZaNPqNKzKWh0+nxdKo69/jJ7y3zztYkCyMfYflGDYiMbaCjxg3bIHsruWhJ\nkT/V8nS5tEic9gaYqBD0YiXq0exWSSv1XwUarEBDolpg4IW7jK/YcNjLA6aQEmNu\nBNvUVp3bve0QHnp4/uY7P+WLS6HW+7NeuU0ZVFDRNzhtlAuLM4unUSZ/zusklouV\nfqj5fYWhAgMBAAECggEASqSfU2ZZwtT5/Bd0yX3AOj+DU9ASb+4FvEE9tUj10rBH\ndxeydpqlChsRwoH07t9x5H9DhDOXmxS/pEegqRKPr4OP3Rid4Hkuck7QgxEgOYex\n+NPPsdoerAy/zAK6H0+Q/qLSJ5Fwg1LV7sf8y3qOEoYmPDvVFq1Lx7kERoxDQIB5\njz7Uf7cu+HlYV7L/eglZH+ond/DSjOgXrKfVGcRNmNAjemXoS43WImPxpB7qy5y3\n1QbDsD9uMzMZInQZNa7fMHbpOUMLSnzKEfoJt9qBoi+Yq2InP65myw7xVj8Fdyta\niDN8bnVtpbRrdANtNC3v9qyt9W/nuWS4x7Pq/2BXTQKBgQDxU5y00dFKAt6f+Z2z\nDPCksBdRECJ7tITB3QwOGQswI7oKYydkGh2BDiKUH4Bsdzc614rg6qkW4STFIwp7\nGxGGgL8KO+iWmDQw0RNJBYgEwSsoE8tg4XE1NsHBtxxVczuzzTeU+3WV67eN5T9K\nvgUaT2gr7EI06iQRPMjxfx7a2wKBgQDmHXBDR8NTLw8Jr6lF+UN790crHG2vZDHu\nK/SYPXXymZz4qm0rZ/XmNNlYDpWRO+a7HiPHeam/c54OsNo2JzHllvg/9sfp6P7x\nKOnESAKhXDg3QW0w7wZkdEGyef0aWQBssHaqnqY0/2FvEMueMY363dKnS+K/RcKW\nW8onXy2EMwKBgA3R1PKB5XNQkMEmgUJkpk84Ck3JF8BvyP51EyCnjH14Pkoj/Xh9\nCl1+mrpSx37uoMoM19YjegVmZT2o0QvVs/441zfV0G73Tl3RS0JuP6jOCxOjdo0Y\nu+vpM9VNECFQlQWp5dnxQH2SXxOQIjy8fvxPuc5yHCR9mA0opvU1a2XrAoGAILiY\n6QhATwjHA6KV2Fxcazk7RncRZbpCm1Jmwmsi5W9Qcc+SHHT481Yafbn9LJyu73aW\nsdur9oxTMlWVgdPK9ZGlFTtbK/i0n8gojX+L2DQLzlegVi/24bviR6WvBtsXA12I\nUjSi/7A8w5VIzuLPBJgcRyu0P2yFAeplcXnIOB8CgYEAn3BOk0UTfwuhvC4f85Op\nk8Dz8bGfJF7S/fjST6sM5MVaFlgYxLOK34p4G2/IEUIoy+cSPS30il+Sr2XsHY2Q\nsz+rNbksfdEHqwMhbM1KQQIBWrKfW2zmQwrLKLRxp6kIRH8YgUwtlvbp8MBwfK3a\nVZKsahNZz3opnwTbSlBbox4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "stepicdoctable@stepicdoctable.iam.gserviceaccount.com",
+  "client_id": "109353298097631276877",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stepicdoctable%40stepicdoctable.iam.gserviceaccount.com"
+}
